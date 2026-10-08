@@ -28,7 +28,7 @@ public class JuegoCraps {
     }
 
     private void aplicarReglas(int suma){
-        if(!hayPuntoEstablecido()){
+        if(!hayPuntoEstablecido()){ //hayPuntoEstablecido==false
            evaluarPrimerLanzamiento(suma);
         }else{
            evaluarLanzamientoPosterior(suma);
